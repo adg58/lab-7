@@ -1,0 +1,143 @@
+#transition-button{
+background-color: blue;
+width: 100px;
+height:100px;
+border: dashed black 2px;
+border-radius: 10px;
+transition: all;
+transition-duration:0.5s;
+}
+
+#transition-button:hover{
+    background-color: green;
+}
+
+#transition-div{
+    height: 200px;
+    width: 100px; 
+    background-color: rgb(184, 37, 171);
+    color:rgb(36, 30, 30);
+    border:solid black 2px;
+    border-radius: 10px;
+    padding: 10px 2px 4px 40px;
+    margin: 40px; 
+    transition:all
+    transition-duration: :1s
+}
+#transition-div:hover{
+    width: 200px;
+   }
+
+   #transition-text{
+    height: 200px;
+    width: 300px; 
+    background-color: rgb(184, 37, 171);
+    color:rgb(36, 30, 30);
+    font-size: 16px;
+    border:solid black 2px;
+    border-radius: 10px;
+    padding: 10px 2px 4px 40px;
+    margin: 40px;
+transition:all;
+transition-duration: 0.3;
+}
+
+#transition-text:hover{
+font-size:24px
+}
+
+#transition-image{
+    height: 200px;
+    width: 300px; 
+    opacity: 1;
+    transition: all;
+    transition-duration: 0.8s;
+   }
+   #transition-image:hover{
+    opacity: 0.5;
+   }
+
+   #scale-div{
+    height: 200px;
+    width: 300px; 
+    background-color: rgb(184, 37, 171);
+    color:rgb(36, 30, 30);
+    font-size: 16px;
+    border:solid black 2px;
+    border-radius: 10px;
+    padding: 10px 2px 4px 40px;
+    margin: 40px;
+transition:all;
+transition-duration: 0.3;
+   }
+
+   #scale-div:hover{
+    transform: scale(1.5);
+   }
+
+   
+   #scale-image{
+       height: 200px;
+       width: 300px; 
+       transition: all;
+       transition-duration: 0.8s;
+       opacity: 0.5;
+      }
+      #scale-image:hover{
+        transform:scale(0.75);
+    }
+
+ #translate-button{
+    background-color: blue;
+width: 100px;
+height:100px;
+border: dashed black 2px;
+border-radius: 10px;
+transition: all;
+transition-duration:0.5s;
+ }
+ 
+ #translate-button:hover{
+    transform:translate(50px 20px): 
+ }
+      
+ #translate-div{
+    height: 200px;
+    width: 300px; 
+    background-color: rgb(184, 37, 171);
+    color:rgb(36, 30, 30);
+    font-size: 16px;
+    border:solid black 2px;
+    border-radius: 10px;
+    padding: 10px 2px 4px 40px;
+    margin: 40px;
+transition:all;
+transition-duration: 0.3;
+ }
+
+ #translate-div:hover{
+    transform:translate(100px)
+ }
+
+ h1{
+text-decoration:dashed;
+font-sized:xx-large;
+color:brown;
+transition-duration: 1s;
+transition: all;
+ }
+
+ #skew-heading:hover{
+    transform: skewx(20deg);
+ }
+
+ #skew-para{
+    transiton:all;
+    font-size: xx-large;
+    color:black;
+    transition-duration: 1s;
+ }
+
+ #skew-para:hover{
+    transform:skewY(15deg)
+ }
